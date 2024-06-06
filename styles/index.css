@@ -1,0 +1,38 @@
+@import url(./styles.css);
+
+.planet1{
+    height: 43%;
+    aspect-ratio: 1 / 1;
+    border-radius: var(--radius100);
+    position: absolute;
+    top: -8%;
+    left:-20% ;
+    background: var(--planet1) 
+}
+
+.planet2{
+    width: 100px;
+    height: 100px;
+    border-radius: var(--radius100);
+    background: var(--AE-23);
+    position: absolute;
+    top: 30%;
+    right: 8%;
+    z-index: 100;
+}
+
+
+@media (min-width:744px){
+    .planet1{
+        height: 60%;
+        left:-15% ;
+    }
+
+}
+
+@media (min-width:1200px){
+    .planet1{
+        left:-40px ;
+    }
+
+}

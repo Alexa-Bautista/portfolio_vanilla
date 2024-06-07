@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/public/images/ivnova.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./styles/index.css">
-<link rel="stylesheet" href="./styles/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <title>Alexa Ivannova</title>
 </head>
+
 <body>
     <!-- parent container -->
     <main class="mainContainer">
@@ -19,41 +24,47 @@
         <div class="planet2"></div>
 
         <div class="stars">
-            <img src="" alt="backgroundStars">
+            <!-- <img src="./public/images/Stars.svg" alt="backgroundStars"> -->
         </div>
 
         <!-- container sound icon -->
-        <div class="sound"></div>
+        <div class="iconSound">
+            <i class='bx bxs-volume-full'></i>
+        </div>
 
         <!-- container logo "IVNOVA" -->
         <div class="containerLogo">
             <img src="./public/images/ivnova.svg" alt="Icono Ivnova">
-            <h1 class="logo">IVNOVA</h1>
+            <h1 class="ivnovaLogo">IVNOVA</h1>
         </div>
 
         <!-- Welcome text -->
-        <div class="welcomeText">
+        <div class="containerWelcomeText">
             <p>BIENVENIDO</p>
         </div>
 
         <!-- users and new user -->
         <div>
-            <!-- Principal user -->
-            <div class="principalUser">
-                <img></img>
-                <p>Alexa Ivannova</p>
-                <p>Desarrolladora Web FullStack Jr.</p>
+            
+            <!-- Container user and new user -->
+            <div class="containerUsers">
+                <!-- Principal user -->
+                <div class="principalUser">
+                    <img src="./public/images/Alexa .jpeg">
+                    <p>Alexa Ivannova Desarrolladora Web FullStack Jr.</p>
+            
+                </div>
+
+                <!-- "New User" -->
+                <div class="newUser">
+                    <div class="btnNewUser">
+                        <i class='bx bx-plus'></i>
+                    </div>
+                    <p>Nuevo Usuario</p>
+                </div>
             </div>
 
-            <!-- "New User" -->
-            <div class="newUser">
-                <div class="btnNewUser"></div>
-                <div class="icon"></div>
-                <p>Nuevo Usuario</p>
-            </div>
-
-            <div>
-                <div class="ivnovaIcon"></div>
+            <div class="copyright">
                 <p>Desarrollado por Alexa Ivannova ©️ </p>
             </div>
         </div>
@@ -69,6 +80,7 @@
 
     </main>
 
-<script src="./js/index.js"></script>
+    <script src="./js/index.js"></script>
 </body>
+
 </html>

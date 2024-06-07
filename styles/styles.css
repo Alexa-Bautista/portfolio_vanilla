@@ -3,73 +3,77 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 14px;
-  color: rgb(253, 253, 253);
+  color: #f6f6f6;
   font-family: "Lato", sans-serif;
 }
 
 :root {
-  --primary: #1a1947;
-  --secondary: #d63cb4;
-  --tertiary: #16006f;
-  --cuaternary: #4c006c;
-
-  /* COLORES PLANETAS */
-  --planet1: linear-gradient(
-    to bottom right,
-    rgba(214, 60, 180, 0.8),
-    rgba(155, 34, 149, 0.8) 18%,
-    rgba(76, 0, 108, 0.7) 33%,
-    rgba(23, 0, 44, 0.6) 55%,
-    rgba(1, 0, 6, 1)
-  );
-
-  --AE-23: linear-gradient(
-    to bottom right,
-    rgba(0, 0, 0, 0.9),
-    rgba(71, 44, 111, 0.9) 32%,
-    rgba(51, 131, 192, 0.6) 64%,
-    rgba(0,255, 160, 0.4) 90%
-  );
-
-  --pink-extra-light: #f6f6f6;
-  --black: #000000;
-  --barbie-pink: #f4238e;
-
-  --gap10: 10px;
-  --gap20: 20px;
-  --gap30: 30px;
-
-  --radius20: 20px;
-  --radius30: 30px;
-  --radius100: 100%;
-
+  /* TIPOGRAPHY */
   --title: 42px;
-  --subtitle: 35px;
-  --second-subtitle: 30px;
+  --subtitle: 36px;
+  --second-subtitle: 25px;
   --web-text: 20px;
   --paragraph: 14px;
   --small-text: 12px;
 
-  --box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.25);
+  /* COLORS SECTION */
+  /* COLOR PALETTE */
+  --pink-extra-light: #f6f6f6;
+  --black: #000000;
+  --barbie-pink: #f4238e;
 
+
+  /* BACKGROUND GRADIENT COLORS */
   --background-gradient: linear-gradient(
-    var(--primary),
-    var(--tertiary),
-    var(--cuaternary),
-    var(--secondary)
+    180deg,
+    #1a1947 0%,
+    #16006f 30.9%,
+    #4c006c 67.9%,
+    #d63cb4 100%
   );
+
+  /* GRADIANT PLANETS */
+  --planet1: linear-gradient(
+    24deg,
+    rgba(214, 60, 180, 0.8) 19.22%,
+    rgba(155, 34, 149, 0.8) 33.05%,
+    rgba(76, 0, 108, 0.7) 44.33%,
+    rgba(23, 0, 44, 0.6) 60.81%,
+    #010006 87.32%
+  );
+
+  --AE-23: linear-gradient(
+    157deg,
+    rgba(0, 0, 0, 0.9) 14.85%,
+    rgba(71, 44, 111, 0.91) 39.47%,
+    rgba(51, 131, 192, 0.6) 63.79%,
+    rgba(0, 255, 160, 0.4) 84.3%
+  );
+
+
+  /* GAP */
+  --gap10: 10px;
+  --gap20: 20px;
+  --gap30: 30px;
+
+  /* RADIUS */
+  --radius20: 20px;
+  --radius30: 30px;
+  --radius100: 100%;
+
+  /* SHADOW */
+  --box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 body {
   background: var(--background-gradient);
 }
 
+/*PAGES PARENT CONTAINER */
 .mainContainer {
-  /* background-color: #F4238E; */
   width: 100vw;
   min-height: 100vh;
   max-width: 1440px;
   margin: 0 auto;
   position: relative;
-  /* overflow: hidden; */
 }

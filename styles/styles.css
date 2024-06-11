@@ -22,7 +22,6 @@
   --black: #000000;
   --barbie-pink: #f4238e;
 
-
   /* BACKGROUND GRADIENT COLORS */
   --background-gradient: linear-gradient(
     180deg,
@@ -34,12 +33,12 @@
 
   /* GRADIANT PLANETS */
   --planet1: linear-gradient(
-    24deg,
-    rgba(214, 60, 180, 0.8) 19.22%,
-    rgba(155, 34, 149, 0.8) 33.05%,
-    rgba(76, 0, 108, 0.7) 44.33%,
-    rgba(23, 0, 44, 0.6) 60.81%,
-    #010006 87.32%
+    35deg,
+    rgba(214, 60, 180, 0.8) 21.52%,
+    rgba(155, 34, 149, 0.8) 34.17%,
+    rgba(76, 0, 108, 0.7) 46.61%,
+    rgba(23, 0, 44, 0.6) 64.08%,
+    #010006 83.76%
   );
 
   --AE-23: linear-gradient(
@@ -50,6 +49,14 @@
     rgba(0, 255, 160, 0.4) 84.3%
   );
 
+  --CRF-15: linear-gradient(
+    225deg,
+    #1a1947 13.28%,
+    #0f1c4f 29.63%,
+    #021f59 49.61%,
+    #40326b 65.95%,
+    #8c4a81 85.93%
+  );
 
   /* GAP */
   --gap10: 10px;
@@ -67,13 +74,17 @@
 
 body {
   background: var(--background-gradient);
+  overflow: hidden;
+  /* opacity: 90%; */
 }
 
 /*PAGES PARENT CONTAINER */
 .mainContainer {
   width: 100vw;
+  height: 100vh;
   min-height: 100vh;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 0 auto;
   position: relative;
+
 }

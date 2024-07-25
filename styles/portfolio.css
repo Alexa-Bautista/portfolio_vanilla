@@ -36,19 +36,17 @@ header {
   border-radius: 0px 30px 30px 0px;
   height: 100%;
   background-image: url(/public/images/sobre-mi.jpeg);
- background-size: cover;
- background-position: center;
- position: relative;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
-.filterCardMovie{
+.filterCardMovie {
   height: 100%;
   width: 100%;
   position: absolute;
-  background-color:rgba(14, 11, 185, 0.26);
+  background-color: rgba(14, 11, 185, 0.26);
 }
-
-
 
 /*  Container information */
 .infoCardMovies {
@@ -59,7 +57,7 @@ header {
   justify-content: center;
   align-items: flex-start;
   gap: 30px;
-  padding: 20px ;
+  padding: 20px;
 }
 
 h1 {
@@ -72,17 +70,17 @@ h1 {
   text-shadow: rgb(0, 0, 0) 1px 0 5px;
 }
 
-.btnAboutMe{
+.btnAboutMe {
   padding: 5px 8px;
   color: #000;
   border-radius: 20px;
   outline: none;
   border: none;
   font-size: var((--small-text));
-  box-shadow: 5px 3px 28px 0px rgba(0, 0, 0, 0.697) ;
+  box-shadow: 5px 3px 28px 0px rgba(0, 0, 0, 0.697);
 }
 
-.mainContainerLateralCards{
+.mainContainerLateralCards {
   /* background-color: rgba(255, 204, 0, 0.367); */
   position: absolute;
   display: flex;
@@ -91,7 +89,7 @@ h1 {
   width: 100%;
 }
 
-.containerItems{
+.containerItems {
   width: 60px;
   height: 315px;
   display: flex;
@@ -99,47 +97,51 @@ h1 {
   align-items: center;
   border-radius: 20px 0 0 20px;
   position: absolute;
-  right:0;
+  right: 0;
   top: 50%;
   translate: 0 -50%;
   transition: all 0.2s ease-in-out;
 }
 
-.containerItems h3{
-transform: rotate(270deg);
+.containerItems h3 {
+  transform: rotate(270deg);
 }
 
-.containerProjects{
+.containerProjects {
   background: url(/public/images/Proyects.jpeg);
+  background-size: cover;
 }
 
-.containerProjects p, .containerProjects .btnAboutMe{
-display: none;
+.containerProjects p,
+.containerProjects .btnAboutMe {
+  display: none;
 }
 
-.containerContact{
-  background-color: red;
+.containerContact {
   width: 110px;
+  background: url(/public/images/contactame.jpg);
+  background-size: cover;
+  text-shadow: rgb(0, 0, 0) 1px 0 5px;
 }
 
-.containerContact h3{
+.containerContact h3 {
   margin-left: -50px;
 }
 
-.showCardProject{
+.showCardProject {
   right: 10%;
   border-radius: 0 20px 20px 0;
   width: 340px;
   height: 380px;
   background-size: cover;
-  background-position:center;
+  background-position: center;
 }
 
-.showInfoContainerProject{
+.showInfoContainerProject {
   align-items: flex-start;
 }
 
-.showcontainerCardMovies{
+.showcontainerCardMovies {
   z-index: 300;
   width: 60px;
   height: 315px;

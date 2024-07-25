@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="/styles/index.css">
     <link rel="stylesheet" href="/styles/portfolio.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Portfolio Alexa</title>
 
@@ -15,23 +16,7 @@
 <body>
     <main class="mainContainer">
         <header>
-            <!-- <nav>
-                <ul class="menu">
-                    <li class="aboutMe">Sobre Mi</li>
-                    <li class="contactMe">Contactame</li>
-                    <li class="Projects">Proyectos</li>
-                </ul>
-            </nav>
-
-            <div class="logo">
-                <div class="icon">
-                    <img src="/public/images/ivnova.svg" alt="">
-                </div>
-                <p class="ivnova">IVNOVA</p>
-            </div>
-            <div class="iconSound">
-                <i class='bx bxs-volume-full'></i>
-            </div> -->
+            <nav id="navbar"></nav>
         </header>
 
         <!-- MAIN CONTAINEr CARDS MOVIES SECTION -->
@@ -47,7 +32,7 @@
                             <h1>SOBRE MI</h1>
                             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat debitis dolor fugit
                                 hic.Voluptas exercitationem recusandae </p>
-                            <button class="btnAboutMe">Saber Más</button>
+                            <a class="btnAboutMe">Saber Más</a>
                             <div class="containerIcons">
                                 <i class='bx bxl-linkedin'></i>
                                 <i class='bx bxl-github'></i>
@@ -63,7 +48,7 @@
                     <h3>CONTÁCTAME</h3>
                     <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat debitis dolor fugit
                         hic. Voluptas exercitationem recusandae </p>
-                    <button class="btnAboutMe">Saber Más</button>
+                    <a class="btnAboutMe">Saber Más</a>
 
                 </div>
 
@@ -71,7 +56,7 @@
                     <h3>PROYECTOS</h3>
                     <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat debitis dolor fugit
                         hic. Voluptas exercitationem recusandae </p>
-                    <button class="btnAboutMe">Saber Más</button>
+                    <a class="btnAboutMe">Saber Más</a>
                 </div>
             </section>
         </section>
@@ -91,6 +76,8 @@
     </main>
     <script src="/components/background.js"></script>
     <script src="/js/openCard.js"></script>
+    <script src="/components/menu.js"></script>
+
 </body>
 
 </html>

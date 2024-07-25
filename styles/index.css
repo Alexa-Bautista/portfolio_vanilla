@@ -132,6 +132,10 @@ cursor: pointer;
   gap: 2px;
 }
 
+a{
+  text-decoration: none;
+}
+
 .principalUser p {
   font-size: var(--paragraph);
 }

@@ -1,0 +1,68 @@
+@import url(./styles.css);
+
+header {
+    /* background-color: red; */
+    height: 80px;
+    z-index: 100;
+    position: relative;
+    z-index: 300;
+  }
+  
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .containerSideBar{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100vw;
+    height: 100vh;
+    background: var(  --background-gradient);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .backgroundSideBar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .sideBar{
+    background-color: aqua;
+    height: 100%;
+    z-index: 1000;
+    position: relative;
+    padding: 40px;
+  }
+
+  .sideBar li{
+    list-style: none;
+    background-color: blue;
+  }
+
+  .bx-x-circle{
+    position: absolute;
+    right: 20px;
+    font-size: var(--subtitle);
+    top: 20px;
+    color: rgb(255, 166, 0);
+  }
+
+  .showMenu{
+    left:0;
+    transition: 0.2s ease-in-out all ;
+  }

@@ -9,7 +9,6 @@ header {
 
 /* Main container cards movies sectión   */
 .mainCardMovies {
-  background-color: blueviolet;
   width: 100vw;
   height: 450px;
   display: flex;
@@ -33,7 +32,6 @@ header {
   background-color: aqua;
   display: flex;
   flex-direction: column;
-  border-radius: 0px 30px 30px 0px;
   height: 100%;
   background-image: url(/public/images/sobre-mi.jpeg);
   background-size: cover;
@@ -82,7 +80,6 @@ h1 {
 
 /* Container lateral cards */
 .mainContainerLateralCards {
-  /* background-color: rgba(255, 204, 0, 0.367); */
   position: absolute;
   display: flex;
   height: 100%;
@@ -135,7 +132,6 @@ h1 {
   width: 340px;
   height: 380px;
   background-size: cover;
-  background-position: center;
 }
 
 .showInfoContainerProject {

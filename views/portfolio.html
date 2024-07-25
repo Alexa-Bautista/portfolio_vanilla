@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="/styles/index.css">
     <link rel="stylesheet" href="/styles/portfolio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Portfolio Alexa</title>
 
 </head>
@@ -14,31 +15,80 @@
 <body>
     <main class="mainContainer">
         <header>
-            <nav>
+            <!-- <nav>
                 <ul class="menu">
                     <li class="aboutMe">Sobre Mi</li>
                     <li class="contactMe">Contactame</li>
                     <li class="Projects">Proyectos</li>
                 </ul>
-            </nav>
+            </nav> -->
 
-            <div class="logo">
+            <!-- <div class="logo">
                 <div class="icon">
                     <img src="/public/images/ivnova.svg" alt="">
                 </div>
                 <p class="ivnova">IVNOVA</p>
             </div>
-            <div class="iconSound"></div>
-
+            <div class="iconSound">
+                <i class='bx bxs-volume-full'></i>
+            </div> -->
         </header>
 
+        <!-- MAIN CONTAINEr CARDS MOVIES SECTION -->
+        <section class="mainCardMovies">
+
+            <!-- CONTAINER TO IMG AND INFORMATION -->
+            <div class="containerCardMovies" id="containerCardMovies">
+                <!-- IMG CARD MOVIES -->
+                <div class="imgCardMovies">
+                    <div class="filterCardMovie">
+                        <!-- INFORMATION -->
+                        <div class="infoCardMovies">
+                            <h1>SOBRE MI</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat debitis dolor fugit
+                                hic.
+                                Voluptas exercitationem recusandae </p>
+                            <button class="btnAboutMe">Saber Más</button>
+                            <div class="containerIcons">
+                                <i class='bx bxl-linkedin'></i>
+                                <i class='bx bxl-github'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LATERAL SECTION MOVIES-->
+            <section class="mainContainerLateralCards">
+                <div id="containerContact" class="containerItems containerContact">
+                    <h3>CONTÁCTAME</h3>
+
+                </div>
+
+                <div id="containerProjects" class="containerItems containerProjects">
+                    <h3>PROYECTOS</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat debitis dolor fugit
+                        hic. Voluptas exercitationem recusandae </p>
+                    <button class="btnAboutMe">Saber Más</button>
+                </div>
+            </section>
+        </section>
+
+        <footer class="copyright">
+            <!-- PROGRAMS SECTION -->
+            <section class="">
+                <i class='bx bxl-javascript'></i>
+                <i class='bx bxl-css3'></i>
+                <i class='bx bxl-html5'></i>
+            </section>
+
+            <p>Desarrollado por Alexa Ivannova ©️ </p>
+        </footer>
+
         <section class="backgroundPortfolio" id="backgroundPortfolio"></section>
-
-
-
-
     </main>
-<script src="/components/background.js"></script>
+    <script src="/components/background.js"></script>
+    <script src="/js/openCard.js"></script>
 </body>
 
 </html>

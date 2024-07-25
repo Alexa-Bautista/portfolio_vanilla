@@ -80,6 +80,7 @@ h1 {
   box-shadow: 5px 3px 28px 0px rgba(0, 0, 0, 0.697);
 }
 
+/* Container lateral cards */
 .mainContainerLateralCards {
   /* background-color: rgba(255, 204, 0, 0.367); */
   position: absolute;
@@ -113,7 +114,7 @@ h1 {
 }
 
 .containerProjects p,
-.containerProjects .btnAboutMe {
+.containerProjects .btnAboutMe, .containerContact p, .containerContact .btnAboutMe {
   display: none;
 }
 
@@ -142,8 +143,18 @@ h1 {
 }
 
 .showcontainerCardMovies {
-  z-index: 300;
+  z-index: 400;
   width: 60px;
+  height: 315px;
+  position: absolute;
+  right: 0;
+  border-radius: 20px 0 0 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.showcontainerCardMoviesLeft {
+  z-index: 300;
+  width: 110px;
   height: 315px;
   position: absolute;
   right: 0;

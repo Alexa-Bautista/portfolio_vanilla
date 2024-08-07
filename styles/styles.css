@@ -10,10 +10,10 @@
 :root {
   /* TIPOGRAPHY */
   --title: 42px;
-  --subtitle: 36px;
+  --subtitle: 32px;
   --second-subtitle: 25px;
   --web-text: 20px;
-  --paragraph: 14px;
+  --paragraph: 16px;
   --small-text: 12px;
 
   /* COLORS SECTION */
@@ -21,6 +21,7 @@
   --pink-extra-light: #f6f6f6;
   --black: #000000;
   --barbie-pink: #f4238e;
+  --dark-blue: #1A1947;
 
   /* BACKGROUND GRADIENT COLORS */
   --background-gradient: linear-gradient(
@@ -75,7 +76,6 @@
 body {
   background: var(--background-gradient);
   overflow: hidden;
-  /* opacity: 90%; */
 }
 
 /*PAGES PARENT CONTAINER */
@@ -86,5 +86,4 @@ body {
   /* max-width: 1440px; */
   margin: 0 auto;
   position: relative;
-
 }

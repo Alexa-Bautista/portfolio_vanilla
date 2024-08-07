@@ -12,7 +12,6 @@
         rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./styles/index.css">
-    <link rel="stylesheet" href="./styles/index.css">
     <title>Alexa Ivannova</title>
 </head>
 
@@ -20,64 +19,52 @@
     <!-- parent container -->
     <main class="mainContainer">
 
-        <section class="backgroundPortfolio">
-            <!-- PLANETS -->
-            <div class="planet1"></div>
-            <div class="planet2"></div>
-            <div class="planet3"></div>
-
-            <div class="stars">
-                <img src="/public/images/stars-ivnova-portfolio.png" alt="backgroundStars">
-                <img src="/public/images/stars-ivnova-portfolio.png" alt="backgroundStars">
-                <img src="/public/images/stars-ivnova-portfolio.png" alt="backgroundStars">
-            </div>
-        </section>
-
+        <section class="backgroundPortfolio" id="backgroundPortfolio"></section>
 
         <section class="containerHome">
-        <!-- container sound icon -->
-        <div class="iconSound">
-            <i class='bx bxs-volume-full'></i>
-        </div>
-
-        <!-- container logo "IVNOVA" -->
-        <div class="containerLogo">
-            <img src="./public/images/ivnova.svg" alt="Icono Ivnova">
-            <h1 class="ivnovaLogo">IVNOVA</h1>
-        </div>
-
-        <!-- Welcome text -->
-        <div class="containerWelcomeText">
-            <p>BIENVENIDO</p>
-        </div>
-
-        <!-- SECTION USER AND NEW USER -->
-        <div>
-            <!-- Container user and new user -->
-            <div class="containerUsers">
-                <!-- Principal user -->
-                <div class="principalUser">
-                    <img src="./public/images/Alexa .jpeg">
-                    <p>Alexa Ivannova</p>
-                    <p>Desarrolladora</p>
-                    <p>Web FullStack Jr.</p>
-                </div>
-
-                <!-- "New User" -->
-                <div class="newUser">
-                    <i class=' btnNewUser bx bx-plus'></i>
-                    <p>Nuevo Usuario</p>
-                </div>
+            <!-- container sound icon -->
+            <div class="iconSound">
+                <i class='bx bxs-volume-full'></i>
             </div>
 
-            <div class="copyright">
-                <p>Desarrollado por Alexa Ivannova ©️ </p>
+            <!-- container logo "IVNOVA" -->
+            <div class="containerLogo">
+                <img src="./public/images/ivnova.svg" alt="Icono Ivnova">
+                <h1 class="ivnovaLogo">IVNOVA</h1>
             </div>
-        </div>
-    </section>
 
+            <!-- Welcome text -->
+            <div class="containerWelcomeText">
+                <p>BIENVENIDO</p>
+            </div>
+
+            <!-- SECTION USER AND NEW USER -->
+            <div>
+                <!-- Container user and new user -->
+                <div class="containerUsers">
+                    <!-- Principal user -->
+                    <a href="./views/portfolio.html" class="principalUser">
+                        <img src="./public/images/alexa.jpeg">
+                        <p>Alexa Ivannova</p>
+                        <p>Desarrolladora</p>
+                        <p>Web FullStack Jr.</p>
+                    </a>
+
+                    <!-- "New User" -->
+                    <div class="newUser">
+                        <i class=' btnNewUser bx bx-plus'></i>
+                        <p>Nuevo Usuario</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <footer class="copyright">
+            <p>Desarrollado por Alexa Ivannova ©️ </p>
+        </footer>
     </main>
-
+    <script src="/components/background.js"></script>
     <script src="./js/index.js"></script>
 </body>
 

@@ -1,0 +1,110 @@
+@import url(./styles.css);
+
+header {
+    height: 65px;
+    position: relative;
+    z-index: 300;
+  }
+  
+  nav{
+    background-color: #1a19477e;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    position: relative;
+  }
+  
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .bx-menu{
+    font-size: 30px;
+  }
+
+  .containerSideBar{
+    position: absolute;
+    top: -550%;
+    left: 0 ;
+    width: 100vw;
+    background-color: var(--dark-blue);
+    transition: all 0.3s ease-in-out;
+    border-radius: 0  0 20px 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .sideBar{
+    width: 100%;
+    position: relative;
+    padding: 50px 0 0 0;
+
+    .borderSeparationMenu{
+      border-bottom: solid 1px #f4238f91 ;
+    }
+
+    .borderSeparationMenu:first-child{
+      border-top: 1px solid #f4238f91;
+  }
+
+  li:hover{
+    background-color: var(--barbie-pink);
+  }
+  }
+
+
+  .sideBar li{
+    list-style: none;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bx-x-circle{
+    position: absolute;
+    right: -10px;
+    font-size: var(--subtitle);
+    top: -10px;
+    color: var(--barbie-pink);
+    margin: 20px;
+  }
+
+  .showMenu{
+    top:65px;
+    transition: 0.3s ease-in-out all ;
+  }
+
+
+  /* RESPONSIVE DESKTOP  */
+@media (min-width: 1200px) {
+
+  .containerSideBar{
+    width: 300px;
+    top: 0;
+    left: -100% ;
+    border-radius: 0  20px 20px 0;
+  }
+
+  .sideBar{
+    padding: 66px 0 0 0;
+  }
+
+  .bx-x-circle{
+    right: 0;
+    top: 0;
+  }
+
+  .showMenu{
+    top:0;
+    left: -0%;
+    transition: 0.3s ease-in-out all ;
+  }
+  
+}

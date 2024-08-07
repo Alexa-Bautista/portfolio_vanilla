@@ -2,12 +2,12 @@ const navbar = document.getElementById("navbar")
 
 navbar.innerHTML = `
 <i id="menuHamburguer" class="bx bx-menu"></i>
-<div class="logo">
+<a href="/index.html"> <div class="logo">
     <div class="icon">
         <img src="/public/images/ivnova.svg" alt="">
     </div>
     <p class="ivnova">IVNOVA</p>
-</div>
+</div> </a>
 <div class="containerSideBar" id="sideBar" >
 
     <div class="sideBar">

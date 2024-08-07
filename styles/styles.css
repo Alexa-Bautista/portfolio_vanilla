@@ -21,17 +21,18 @@
   --pink-extra-light: #f6f6f6;
   --black: #000000;
   --barbie-pink: #f4238e;
-  --dark-blue: #1A1947;
+  --dark-blue: #1a1947;
 
   /* BACKGROUND GRADIENT COLORS */
   --background-gradient: linear-gradient(
-    180deg,
-    #1a1947 0%,
-    #16006f 30.9%,
-    #4c006c 67.9%,
-    #d63cb4 100%
-  );
-
+          180deg,
+          #1a1947 0%,
+          #0f1c4f 22.5%,
+          #021f59 50%,
+          #40326b 72.5%,
+          #8c4a81 100%
+        );
+        
   /* GRADIANT PLANETS */
   --planet1: linear-gradient(
     35deg,
@@ -86,4 +87,7 @@ body {
   /* max-width: 1440px; */
   margin: 0 auto;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

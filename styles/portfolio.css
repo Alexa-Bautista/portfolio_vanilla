@@ -59,6 +59,9 @@ h1 {
 .infoCardMovies p {
   font-size: var(--paragraph);
   text-shadow: rgb(0, 0, 0) 1px 0 5px;
+  background-color: rgba(83, 83, 83, 0.347);
+  border: transparent solid 10px;
+  border-radius: 10px;
 }
 
 .btnAboutMe {
@@ -70,7 +73,27 @@ h1 {
   border: none;
   font-size: var(--small-text);
   box-shadow: 5px 3px 28px 0px rgba(0, 0, 0, 0.697);
+
 }
+
+.btnAboutMe:hover{
+  background-color: var(--barbie-pink);
+}
+
+/* Icons section about me*/
+.containerIcons{
+  .bx{
+    font-size: 25px;
+    margin: 5px;
+  }
+  
+  .bx:hover{
+    color: var(--barbie-pink);
+    transform: scale(1.5);
+  }
+
+}
+
 
 /* Container lateral cards */
 .mainContainerLateralCards {
@@ -153,18 +176,12 @@ h1 {
   transition: all 0.2s ease-in-out;
 }
 
-footer {
-  /* background-color: red; */
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-ogyCarousel i {
+.tecnology i {
   font-size: var(--title);
-  color: #ff0084;
+  color: var(--barbie-pink);
 }
 
-.tecnologyCarousel i:nth-child(odd) {
+.tecnology i:nth-child(odd) {
   color: rgb(255, 166, 0);
 }
 

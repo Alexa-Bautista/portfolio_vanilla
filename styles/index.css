@@ -178,15 +178,19 @@ a{
 }
 
 /* FOOTER COPYRIGHT */
-.copyright {
-  position: absolute;
-  width: 100%;
+footer {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  bottom: 50px;
-  font-size: var(--small-text);
+  margin: 15px 0;
   z-index: 200;
+  gap: 10px;
+
+  p{
+  font-size: var(--small-text);
+
+  }
 }
 
 /* RESPONSIVE TABLET  */

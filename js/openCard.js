@@ -29,7 +29,7 @@ containerProjects.addEventListener("click", () => {
 
   containerProjects.classList.remove("showcontainerCardMoviesLeft");
 
-  containerProjects.style.zIndex = "0"
+  containerProjects.style.zIndex = "0";
   h3Project.style.transform = "rotate(0deg)";
   h3Project.style.fontSize = "var(--subtitle)";
   h3Project.style.textShadow = " rgb(0, 0, 0) 1px 0 5px";
@@ -40,7 +40,7 @@ containerProjects.addEventListener("click", () => {
   btnProject.style.display = "block";
 
   containerContact.classList.add("showcontainerCardMoviesLeft");
-  containerContact.style.zIndex = "200"
+  containerContact.style.zIndex = "200";
   pContact.style.display = "none";
   btnContact.style.display = "none";
   h3Contact.style.transform = "rotate(270deg)";
@@ -65,7 +65,6 @@ containerProjects.addEventListener("click", () => {
 });
 
 // Listener container contact
-
 containerContact.addEventListener("click", () => {
   containerContact.classList.add("showCardProject");
   containerContact.classList.add("infoCardMovies");
@@ -74,7 +73,7 @@ containerContact.addEventListener("click", () => {
   containerContact.classList.remove("showcontainerCardMoviesLeft");
   containerContact.classList.remove("showcontainerCardMovies");
 
-  containerContact.style.zIndex = "0"
+  containerContact.style.zIndex = "0";
   h3Contact.style.marginLeft = "0";
   h3Contact.style.transform = "rotate(0deg)";
   h3Contact.style.fontSize = "var(--subtitle)";
@@ -83,9 +82,9 @@ containerContact.addEventListener("click", () => {
   pContact.style.width = "70%";
   pContact.style.textShadow = "rgb(0, 0, 0) 1px 0 5px";
   btnContact.style.display = "block";
-  
+
   containerProjects.classList.add("showcontainerCardMoviesLeft");
-  containerProjects.style.zIndex = "100"
+  containerProjects.style.zIndex = "100";
   pProject.style.display = "none";
   btnProject.style.display = "none";
   h3Project.style.transform = "rotate(270deg)";
@@ -96,7 +95,7 @@ containerContact.addEventListener("click", () => {
   h3Project.style.textShadow = "none";
 
   containerCardMovies.classList.add("showcontainerCardMovies");
-  containerCardMovies.style.zIndex = "200"
+  containerCardMovies.style.zIndex = "200";
   pContainerCardMovies.style.display = "none";
   btnContainerCardMovies.style.display = "none";
   iconsContainerCardMovies.style.display = "none";
@@ -111,7 +110,7 @@ containerContact.addEventListener("click", () => {
 
 containerCardMovies.addEventListener("click", () => {
   containerCardMovies.classList.remove("showcontainerCardMovies");
-  containerCardMovies.style.zIndex = "0"
+  containerCardMovies.style.zIndex = "0";
   containerCardMovies.style.borderRadius = "0 20px 20px 0";
   pContainerCardMovies.style.display = "block";
   btnContainerCardMovies.style.display = "block";
@@ -124,7 +123,7 @@ containerCardMovies.addEventListener("click", () => {
   h1ContainerCardMovies.style.textShadow = "rgb(0, 0, 0) 1px 0 5px";
 
   containerProjects.classList.add("showcontainerCardMoviesLeft");
-  containerProjects.style.zIndex = "100" 
+  containerProjects.style.zIndex = "100";
   pProject.style.display = "none";
   btnProject.style.display = "none";
   h3Project.style.transform = "rotate(270deg)";
@@ -134,13 +133,12 @@ containerCardMovies.addEventListener("click", () => {
   h3Project.style.textAlign = "center";
   h3Project.style.textShadow = "none";
 
-
   containerContact.classList.add("showcontainerCardMovies");
   containerContact.classList.remove("showcontainerCardMoviesLeft");
 
-  containerContact.classList.remove("h3")
-  
-  containerContact.style.zIndex = "200"
+  containerContact.classList.remove("h3");
+
+  containerContact.style.zIndex = "200";
   pContact.style.display = "none";
   btnContact.style.display = "none";
   h3Contact.style.transform = "rotate(270deg)";
@@ -149,6 +147,4 @@ containerCardMovies.addEventListener("click", () => {
   h3Contact.style.marginLeft = "-40px";
   h3Contact.style.textAlign = "center";
   h3Contact.style.textShadow = "none";
-
-
 });

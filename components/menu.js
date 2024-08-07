@@ -9,21 +9,12 @@ navbar.innerHTML = `
     <p class="ivnova">IVNOVA</p>
 </div>
 <div class="containerSideBar" id="sideBar" >
-    <section class="backgroundSideBar" id="backgroundSideBar">
-        <div class="planet1"></div>
-        <div class="planet2"></div>
-        <div class="planet3"></div>
-        <div class="stars">
-            <img src="/public/images/stars-ivnova-portfolio.png" alt="backgroundStars">
-            <img src="/public/images/stars-ivnova-portfolio.png" alt="backgroundStars">
-            <img src="/public/images/stars-ivnova-portfolio.png" alt="backgroundStars">
-        </div>
-    </section>
+
     <div class="sideBar">
         <i id="closeSideBar" class='bx bx-x-circle'></i>
         <ul >
-            <li> <a href="#">Sobre Mi</a> </li>
-            <li> <a href="#">Proyectos</a> </li> 
+            <li class="borderSeparationMenu"> <a href="#">Sobre Mi</a> </li>
+            <li class="borderSeparationMenu"> <a href="#">Proyectos</a> </li> 
             <li> <a href="#">Contáctame</a> </li> 
         </ul> 
     </div>

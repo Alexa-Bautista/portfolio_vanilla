@@ -12,7 +12,7 @@ const btnContact = document.querySelector("#containerContact .btnAboutMe");
 
 // Card movies container varibles
 const containerCardMovies = document.getElementById("containerCardMovies");
-const h1ContainerCardMovies = document.querySelector("#containerCardMovies h1");
+const h2ContainerCardMovies = document.querySelector("#containerCardMovies h2");
 const pContainerCardMovies = document.querySelector("#containerCardMovies p");
 const btnContainerCardMovies = document.querySelector(
   "#containerCardMovies .btnAboutMe"
@@ -56,12 +56,12 @@ containerProjects.addEventListener("click", () => {
   pContainerCardMovies.style.display = "none";
   btnContainerCardMovies.style.display = "none";
   iconsContainerCardMovies.style.display = "none";
-  h1ContainerCardMovies.style.transform = "rotate(270deg)";
-  h1ContainerCardMovies.style.fontSize = "var(--paragraph)";
-  h1ContainerCardMovies.style.width = "100px";
-  h1ContainerCardMovies.style.marginLeft = "-40px";
-  h1ContainerCardMovies.style.textAlign = "center";
-  h1ContainerCardMovies.style.textShadow = "none";
+  h2ContainerCardMovies.style.transform = "rotate(270deg)";
+  h2ContainerCardMovies.style.fontSize = "var(--paragraph)";
+  h2ContainerCardMovies.style.width = "100px";
+  h2ContainerCardMovies.style.marginLeft = "-40px";
+  h2ContainerCardMovies.style.textAlign = "center";
+  h2ContainerCardMovies.style.textShadow = "none";
 });
 
 // Listener container contact
@@ -99,12 +99,12 @@ containerContact.addEventListener("click", () => {
   pContainerCardMovies.style.display = "none";
   btnContainerCardMovies.style.display = "none";
   iconsContainerCardMovies.style.display = "none";
-  h1ContainerCardMovies.style.transform = "rotate(270deg)";
-  h1ContainerCardMovies.style.fontSize = "var(--paragraph)";
-  h1ContainerCardMovies.style.width = "100px";
-  h1ContainerCardMovies.style.marginLeft = "-40px";
-  h1ContainerCardMovies.style.textAlign = "center";
-  h1ContainerCardMovies.style.textShadow = "none";
+  h2ContainerCardMovies.style.transform = "rotate(270deg)";
+  h2ContainerCardMovies.style.fontSize = "var(--paragraph)";
+  h2ContainerCardMovies.style.width = "100px";
+  h2ContainerCardMovies.style.marginLeft = "-40px";
+  h2ContainerCardMovies.style.textAlign = "center";
+  h2ContainerCardMovies.style.textShadow = "none";
   containerCardMovies.style.borderRadius = "20px 0 0 20px";
 });
 
@@ -115,12 +115,12 @@ containerCardMovies.addEventListener("click", () => {
   pContainerCardMovies.style.display = "block";
   btnContainerCardMovies.style.display = "block";
   iconsContainerCardMovies.style.display = "block";
-  h1ContainerCardMovies.style.transform = "rotate(0deg)";
-  h1ContainerCardMovies.style.fontSize = "var(--subtitle)";
-  h1ContainerCardMovies.style.width = "auto";
-  h1ContainerCardMovies.style.marginLeft = "0px";
-  h1ContainerCardMovies.style.textAlign = "center";
-  h1ContainerCardMovies.style.textShadow = "rgb(0, 0, 0) 1px 0 5px";
+  h2ContainerCardMovies.style.transform = "rotate(0deg)";
+  h2ContainerCardMovies.style.fontSize = "var(--subtitle)";
+  h2ContainerCardMovies.style.width = "auto";
+  h2ContainerCardMovies.style.marginLeft = "0px";
+  h2ContainerCardMovies.style.textAlign = "center";
+  h2ContainerCardMovies.style.textShadow = "rgb(0, 0, 0) 1px 0 5px";
 
   containerProjects.classList.add("showcontainerCardMoviesLeft");
   containerProjects.style.zIndex = "100";

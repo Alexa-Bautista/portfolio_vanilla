@@ -47,11 +47,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 30px;
+  gap: 10px;
   padding: 20px;
 }
 
-h1 {
+h2 {
   font-size: var(--subtitle);
   text-shadow: rgb(0, 0, 0) 1px 0 5px;
 }
@@ -73,7 +73,6 @@ h1 {
   border: none;
   font-size: var(--small-text);
   box-shadow: 5px 3px 28px 0px rgba(0, 0, 0, 0.697);
-
 }
 
 .btnAboutMe:hover{
@@ -176,6 +175,8 @@ h1 {
   transition: all 0.2s ease-in-out;
 }
 
+
+/* Section tecnologies */
 .tecnology i {
   font-size: var(--title);
   color: var(--barbie-pink);
@@ -188,10 +189,105 @@ h1 {
 
 /* RESPONSIVE TABLET  */
 @media (min-width: 744px) {
+/* Main container cards movies sectión   */
+.mainCardMovies {
+  height: 100vh;
 }
 
+/* Container to img and information */
+.containerCardMovies {
+  /* background-color: aqua; */
+  width: 90%;
+  height: 80%;
+}
+
+/*  Container information */
+.infoCardMovies {
+  /* background-color: green; */
+  width: 80%;
+  gap: 40px;
+  padding: 50px;
+}
+
+h2 {
+  font-size: var(--title);
+}
+
+.infoCardMovies p {
+  font-size: var(--web-text);
+}
+
+.btnAboutMe {
+  padding: 10px 15px;
+  font-size: var(--web-text);
+}
+
+/* Icons section about me*/
+.containerIcons{
+  .bx{
+    font-size: var(--title);
+  }
+}
+
+
+/* Container lateral cards */
+.containerItems {
+  width: 100px;
+  height: 500px;
+}
+
+.containerContact {
+  width: 180px;
+}
+
+.showCardProject {
+  width: 90%;
+  height: 80%;
+}
+
+.showcontainerCardMovies {
+  width: 100px;
+  height: 500px;
+}
+
+.showcontainerCardMoviesLeft {
+  width: 180px;
+  height: 500px;
+}
+
+
+/* Section tecnologies */
+.tecnology i {
+  font-size:50px;
+}
+}
 
 
 /* RESPONSIVE DESKTOP  */
 @media (min-width: 1200px) {
+/* Container to img and information */
+.containerCardMovies {
+  width: 90%;
+  height: 100%;
+}
+
+/* Container lateral cards */
+.containerItems {
+  height: 400px;
+}
+
+.showCardProject {
+  width: 90%;
+  height: 100%;
+}
+
+.showcontainerCardMovies {
+  width: 100px;
+  height: 400px;
+}
+
+.showcontainerCardMoviesLeft {
+  width: 180px;
+  height: 400px;
+}
 }
